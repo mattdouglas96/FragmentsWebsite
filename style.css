@@ -1,0 +1,51 @@
+.half-height {
+  height: auto;
+  max-height: 50vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.rancho-regular {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.martian-mono {
+  font-family: "Martian Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.markazi-text {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url('colors.jpg');
+  background-size: cover;              
+  background-position: center center;  
+  background-repeat: no-repeat;         
+  background-attachment: fixed;        
+  min-height: 100%;                   
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 2rem;
+  color: silver;
+}
+
+.neon-orange {
+ color: #fe7d33
+}
